@@ -1,7 +1,7 @@
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
-    module.exports = exports = factory(require("very/core"), require("very/ify"));
+    module.exports = exports = factory(require("veryme/core"), require("veryme/ify"));
 	} else if (typeof define === "function" && define.amd) {
 		// AMD
 		define(["./core", "./ify"], factory);
